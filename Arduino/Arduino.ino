@@ -9,7 +9,6 @@ void setup() {
   pinMode(1, OUTPUT);
   attachInterrupt(0, sensorInterrupt, RISING);
   Serial.begin(9600);
-
 }
 
 void loop() {
