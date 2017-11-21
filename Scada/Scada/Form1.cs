@@ -41,9 +41,12 @@ namespace Scada
                 }
             }
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        /*private void button1_Click(object sender, EventArgs e)
         {
-        }
+            for (int i = 0; i < 50; i++)
+            {
+                grafico.Series["Series1"].Points.AddXY(0.5*i, 0.5*i);
+            }
+        }*/
     }
 }
